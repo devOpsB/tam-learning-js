@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A jQuery Test</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome.</h2>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>You have 3 trips coming up. Click "itinerary" to view the itinerary for each trip.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-lg-4 trip" data-trip-id="1">
+          <h2>Trip to Hawaii</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View itinerary »</a></p>
+          <p><a class="btn btn-default" href="#" role="button">Confirm trip»</a></p>
+          <p><a class="btn btn-danger" href="#" role="button">Cancel trip</a></p>
+          <div class="itinerary-placeholder"></div>
+        </div>
+        <div class="col-lg-4 trip" data-trip-id="2">
+          <h2>Trip to Baltimore</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View itinerary »</a></p>
+          <p><a class="btn btn-default" href="#" role="button">Confirm trip»</a></p>
+          <p><a class="btn btn-danger" href="#" role="button">Cancel trip</a></p>
+          <div class="itinerary-placeholder"></div>
+        </div>
+        <div class="col-lg-4 trip" data-trip-id="3">
+          <h2>Trip to Boston</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View itinerary »</a></p>
+          <p><a class="btn btn-default" href="#" role="button">Confirm trip»</a></p>
+          <p><a class="btn btn-danger" href="#" role="button">Cancel trip</a></p>
+          <div class="itinerary-placeholder"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
