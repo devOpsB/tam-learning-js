@@ -12,5 +12,5 @@ There is a full write-up of everything, including a little bit about JSON in the
 ## Getting Setup
 
  - install [nodejs](http://nodejs.org) v4.x
- - in a command window go to this directory and run 'npm install'
- - then run `node server.js` and open http://localhost:8080 in a browser
+ - in a command window go to this directory `<folder-where-you-cloned-tam-learning-js>/jquery/ajax-1` in your local copy, and run 'npm install'
+ - then run `node server.js` and open [http://localhost:8080](http://localhost:8080) in a browser
